@@ -12,6 +12,8 @@
 		38435FCB22547481007DA1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38435FC922547481007DA1DC /* Main.storyboard */; };
 		38435FCD22547482007DA1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38435FCC22547482007DA1DC /* Assets.xcassets */; };
 		38435FD022547482007DA1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38435FCE22547482007DA1DC /* LaunchScreen.storyboard */; };
+		38435FD822547731007DA1DC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38435FD722547731007DA1DC /* TableViewCell.swift */; };
+		38435FDA225477C4007DA1DC /* Tenant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38435FD9225477C4007DA1DC /* Tenant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		38435FCC22547482007DA1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38435FCF22547482007DA1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38435FD122547482007DA1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38435FD722547731007DA1DC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		38435FD9225477C4007DA1DC /* Tenant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tenant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				38435FCC22547482007DA1DC /* Assets.xcassets */,
 				38435FCE22547482007DA1DC /* LaunchScreen.storyboard */,
 				38435FD122547482007DA1DC /* Info.plist */,
+				38435FD722547731007DA1DC /* TableViewCell.swift */,
+				38435FD9225477C4007DA1DC /* Tenant.swift */,
 			);
 			path = Test3;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38435FD822547731007DA1DC /* TableViewCell.swift in Sources */,
+				38435FDA225477C4007DA1DC /* Tenant.swift in Sources */,
 				38435FC822547481007DA1DC /* ViewController.swift in Sources */,
 				38435FC622547481007DA1DC /* AppDelegate.swift in Sources */,
 			);
